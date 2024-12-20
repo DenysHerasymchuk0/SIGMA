@@ -12,7 +12,7 @@ This script is designed to help automate key tasks related to system security, n
 SIGMA helps you `monitor the status` of specific services running on your system. It ensures that critical services are active and running as expected.
   
 **Example:**
-```./SIGMA.ps1 -ServiceName "wuauserv" -ExpectedStatus "Running"```
+```./sigma.ps1 -ServiceName "wuauserv" -ExpectedStatus "Running"```
 This will verify whether the Windows Update service is running, ensuring that your system is up-to-date with the latest patches.
 
 **Explanation:**
@@ -22,7 +22,7 @@ Service status monitoring is important for system health. By regularly checking 
 **SIGMA** allows you to `validate the existence of files` or directories that are critical to the system's configuration, operation, or security. It ensures that the necessary files are present and not missing or altered.
 
 **Example:**
-```./SIGMA.ps1 -Path "C:\Windows\System32"```
+```./sigma.ps1 -Path "C:\Windows\System32"```
 This command will confirm that the System32 directory, a crucial part of Windows, exists. If it’s missing, it could indicate a system problem or breach.
 
 **Explanation:**
@@ -32,7 +32,7 @@ File existence validation is key for maintaining system integrity. Missing or ta
 `Network connectivity` testing ensures that your system can properly connect to other devices on your local network and external resources like websites. This feature is essential for troubleshooting network issues and ensuring proper communication within your network infrastructure.
 
 **Example:**
-``./SIGMA.ps1 -Network``
+``./sigma.ps1 -Network``
 This will verify if the system can connect to the local network, checking for potential issues with your internal network infrastructure.
 
 **Explanation:**
@@ -49,6 +49,9 @@ The script retrieves personal information about the client (name and client ID) 
 It fetches details about all accounts, including the balance, credit limit, and currency codes.
 It also provides information about "jars" (a feature that allows users to set up savings goals) and displays the jar balance and goal amount.
 The Monobank integration ensures that your financial data is accessed securely, offering a seamless connection to the service.
+
+**Example:**
+```./sigma.ps1```
 
 - **To use the Monobank integration, you need to paste your personal X-Token into the $apiToken variable in the script.**
 

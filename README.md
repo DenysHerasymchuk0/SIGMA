@@ -67,9 +67,9 @@ The Monobank integration ensures that your financial data is accessed securely, 
 3. Internet access for fetching Monobank data and testing external network connections
 ### Steps:
 
-**Clone or download the repository:**
+- **Clone or download the repository:**
 ```git clone https://example.com/SIGMA.git```
-Navigate to the directory containing sigma.ps1.
+- **Navigate to the directory containing sigma.ps1.**
 
 ### Usage
 

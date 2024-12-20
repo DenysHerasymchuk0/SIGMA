@@ -87,7 +87,6 @@ Example:
 - Check if the Windows Update service is running.
 - Confirm that the System32 directory exists.
 - Test network connectivity to the local network.
-- Contributing
 
 ---
 ## License

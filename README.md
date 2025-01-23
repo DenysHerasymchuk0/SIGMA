@@ -68,7 +68,7 @@ The Monobank integration ensures that your financial data is accessed securely, 
 ### Steps:
 
 - **Clone or download the repository:**
-```git clone https://example.com/SIGMA.git```
+```git clone https://github.com/DenysHerasymchuk0/SIGMA.git```
 - **Navigate to the directory containing sigma.ps1.**
 
 ### Usage
